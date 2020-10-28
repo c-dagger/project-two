@@ -34,3 +34,8 @@ ul {
 li {
   padding-bottom: 12.5px;
 }
+
+ul ul,
+ul ul li {
+  padding-bottom: 0;
+}
