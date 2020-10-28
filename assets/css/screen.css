@@ -30,3 +30,7 @@ ul {
   padding-bottom: 12.5px;
   list-style-type: disc;
 }
+
+li {
+  padding-bottom: 12.5px;
+}
