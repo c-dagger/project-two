@@ -15,6 +15,7 @@ html {
   font-family: 'Piazzolla', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 22.5px; /*18px * 1.25 (125%) = 22.5px */
+  padding: 25px 12.5px 25px 12.5px; /*TRBL*/
 }
 
 h1 {
