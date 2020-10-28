@@ -24,3 +24,9 @@ h1 {
 p {
   padding-bottom: 22px;
 }
+
+ul {
+  margin-left: 12.5px;
+  padding-bottom: 12.5px;
+  list-style-type: disc;
+}
