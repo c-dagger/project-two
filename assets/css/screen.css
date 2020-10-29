@@ -30,7 +30,8 @@ h2 {
   padding-top: 26px;
 }
 
-p {
+p + p {
+  text-indent: 26px;
   padding-bottom: 26px;
 }
 
