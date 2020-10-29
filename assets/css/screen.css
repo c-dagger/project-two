@@ -14,6 +14,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Setting type according to a 3:4 (Major Third) Modular Scale:
   https://www.modularscale.com/?18&px&1.33
 */
+
 html {
   font-family: 'Piazzolla', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
@@ -48,6 +49,13 @@ li {
 ul ul,
 ul ul li {
   padding-bottom: 0;
+}
+
+/* Responsive Images */
+img {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #EEE;
 }
 
 /* State Styles */
