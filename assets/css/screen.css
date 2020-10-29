@@ -26,6 +26,10 @@ h1 {
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
 }
 
+h2 {
+  padding-top: 26px;
+}
+
 p {
   padding-bottom: 26px;
 }
