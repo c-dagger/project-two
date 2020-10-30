@@ -92,6 +92,13 @@ img {
   }
 }
 
+@media screen and (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (min-width: 830px) {
   html {
     font-size: 1.25em; /* 20px / 16px = 1.25em */
