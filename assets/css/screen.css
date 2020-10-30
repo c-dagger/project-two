@@ -52,9 +52,18 @@ li {
   padding-bottom: 12.5px;
 }
 
-ul ul,
-ul ul li {
-  padding-bottom: 0;
+/* Modular Styles */
+nav li {
+  padding-bottom: 8px;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  background: #e4e4e2;
+  color: #222;
+}
+nav a:hover {
+  background: #4b3120;
 }
 
 /* Responsive Images */
