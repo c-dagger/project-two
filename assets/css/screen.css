@@ -81,6 +81,11 @@ img {
   h1 {
     text-align: left;
   }
+  nav li {
+    float: left;
+    width: 33.3333333%;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 620px) {
