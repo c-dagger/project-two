@@ -76,7 +76,7 @@ img {
 /* State Styles */
 @media screen and (min-width: 490px) {
   html {
-  padding: 25px 10% 25px 10%;
+    padding: 25px 10% 25px 10%;
   }
   h1 {
     text-align: left;
