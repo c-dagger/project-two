@@ -73,6 +73,11 @@ img {
   border: 1px solid #EEE;
 }
 
+section {
+  float: none;
+  clear: both;
+}
+
 /* State Styles */
 @media screen and (min-width: 490px) {
   html {
