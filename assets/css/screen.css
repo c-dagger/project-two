@@ -38,8 +38,8 @@ figcaption {
 }
 
 p + p {
-  text-indent: 26px;
-  padding-bottom: 26px;
+  text-indent: 1.44em; /* 26px / 18px = 1.44em */
+  padding-bottom: 1.44em; /* 26px / 18px = 1.44em */
 }
 
 ul {
