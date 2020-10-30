@@ -102,5 +102,12 @@ img {
 @media screen and (min-width: 830px) {
   html {
     font-size: 1.25em; /* 20px / 16px = 1.25em */
+    #gallery {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    figure {
+      min-width: 200px;
+    }
   }
 }
