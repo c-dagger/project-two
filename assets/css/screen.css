@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("//basehold.it/26");
+@import url("//basehold.it/12");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -19,19 +19,20 @@ html {
   font-family: Piazzolla, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
-  padding: 25px 12.5px 25px 12.5px; /*TRBL*/
+  padding: 12px; /*TRBL*/
   background: #F1948A;
   color: #273746;
 }
 
 h1 {
-  border: 10px solid #F9CFCB;
+  border: 6px solid #F9CFCB;
   font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
+  padding: 12px;
 }
 
 h2 {
-  padding-top: 26px;
+  padding: 26px;
 }
 
 figcaption {
@@ -55,7 +56,7 @@ li {
 
 /* Modular Styles */
 nav li {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 nav a {
   display: block;
