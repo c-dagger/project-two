@@ -25,6 +25,7 @@ html {
 }
 
 h1 {
+  border: 10px solid #F9CFCB;
   font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
 }
