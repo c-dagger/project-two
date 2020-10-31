@@ -15,6 +15,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   https://www.modularscale.com/?18&px&1.33
 */
 /* Base Styles */
+
+/*
+font-size:  18px
+line-height  26px;
+*/
+
 html {
   font-family: Piazzolla, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
