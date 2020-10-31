@@ -86,26 +86,54 @@ section {
   h1 {
     text-align: left;
   }
+  nav::after {
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+    margin-right: 16px;
+  }
+  nav a {
+    margin-right: 8px;
+  }
+  nav li: last-child a {
+    margin-right: 0;
+  }
   nav li {
     float: left;
     width: 33.3333333%;
     text-align: center;
   }
-}
-
-@media screen and (min-width: 620px) {
-  html {
-    padding: 100px 25% 25px 25%;
+  figure::after,
+  section::after {
+    content:"";
+    display: block;
+    clear: both;
+    float: none;
   }
-  h1 {
-    padding-bottom: 52px;
+  .portrait {
+    float: left;
+    width: 50%;
+  }
+  .landscape {
+    float: left;
+    width: 50%;
+  }
+  figure {
+    clear: both;
+    float: none;
+    margin-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 700px) {
   body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
+  }
+  nav {
+    width: 66.6666667%;
+    margin-left: auto;
   }
 }
 
