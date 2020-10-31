@@ -91,43 +91,40 @@ img {
   nav li {
     width: auto;
   }
-
-/*
 section {
   float: none;
   clear: both;
 }
-*/
-/* State Styles */
-@media screen and (min-width: 490px) {
-  html {
-    padding: 25px 10% 25px 10%;
-  }
-  h1 {
-    text-align: left;
-  }
 
-  nav::after {
-    content: "";
-    display: block;
-    clear: both;
-    float: none;
-  }
-  nav a {
-    margin-right: 8px;
-  }
+  /* State Styles */
+  @media screen and (min-width: 490px) {
+    html {
+      padding: 25px 10% 25px 10%;
+    }
+    h1 {
+      text-align: left;
+    }
 
-  nav li {
-    float: left; /* Handle layout with float */
-    width: 33.3333333%; /* NOT for flexbox */
-    text-align: center;
-    flex-grow: 1 1 auto; /* Handle layout with flexbox */
-  }
-}
+    nav::after {
+      content: "";
+      display: block;
+      clear: both;
+      float: none;
+    }
+    nav a {
+      margin-right: 8px;
+    }
 
+    nav li {
+      float: left; /* Handle layout with float */
+      width: 33.3333333%; /* NOT for flexbox */
+      text-align: center;
+      flex-grow: 1 1 auto; /* Handle layout with flexbox */
+    }
+  }
   figure::after,
   section::after {
-    content:"";
+    content: "";
     display: block;
     clear: both;
     float: none;
