@@ -60,25 +60,24 @@ nav li {
 nav a {
   display: block;
   text-decoration: none;
-  background: #e4e4e2;
+  background: #F3A39A;
   color: #222;
 }
 nav a:hover {
-  background: #4b3120;
+  background: #F5B2AB;
 }
 
 /* Responsive Images */
 img {
   display: block;
   max-width: 100%;
-  border: 1px solid #EEE;
 }
-
+/*
 section {
   float: none;
   clear: both;
 }
-
+*/
 /* State Styles */
 @media screen and (min-width: 490px) {
   html {
