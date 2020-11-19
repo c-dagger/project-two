@@ -100,7 +100,7 @@ img {
   /* State Styles */
   @media screen and (min-width: 100px) {
     html {
-      padding: 25px;
+      padding: 4px;
       font-size: 1em;
     }
 
