@@ -26,13 +26,14 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 12px; /*TRBL*/
-  background: #F1948A;
-  color: #273746;
+  background: #F3A095;
+  color: #121212;
 }
 
 h1 {
   border: 6px solid #F9CFCB;
-  font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
+  font-weight: bold; /* Piazzolla Light */
+  font-size: 1.333em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
   padding: 12px;
 }
