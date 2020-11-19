@@ -146,11 +146,11 @@ img {
   }
   .portrait {
     float: center;
-    width: 100%;
+    width: 50%;
   }
   .landscape {
     float: center;
-    width: 100%;
+    width: 50%;
   }
   figure {
     clear: both;
