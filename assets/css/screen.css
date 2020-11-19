@@ -109,7 +109,8 @@ img {
       padding: 25px 10% 25px 10%;
     }
     h1 {
-      text-align: left;
+      border: 6px solid #F9CFCB;
+      font-size: 1.77778em;
     }
 
     nav::after {
