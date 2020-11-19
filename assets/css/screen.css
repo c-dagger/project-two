@@ -155,7 +155,7 @@ img {
   }
   figure {
     clear: both;
-    float: none;
+    float: right;
     margin-bottom: 32px;
   }
 }
