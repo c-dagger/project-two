@@ -108,8 +108,12 @@ img {
   /* State Styles */
   @media screen and (min-width: 100px) {
     html {
-      padding: 4px;
       font-size: 1em;
+      line-height: 22px;
+      padding: 12px;
+    }
+    h1, h2, h3, h4 {
+      padding-bottom: 12px;
     }
 
   @media screen and (min-width: 490px) {
