@@ -177,21 +177,18 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-  body {
-    display: grid;
-    grid-template-columns: auto;
-  }
 }
 
 @media screen and (min-width: 830px) {
   html {
     font-size: 1.25em; /* 20px / 16px = 1.25em */
+    line-height: 40px;
   }
 
     #gallery {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      align-content: center;
     }
     figure {
       min-width: 200px;
