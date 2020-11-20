@@ -125,12 +125,7 @@ img {
       font-size: 1.77778em;
     }
 
-    nav::after {
-      content: "";
-      display: block;
-      clear: both;
-      float: none;
-    }
+
     nav a {
       margin-right: 8px;
     }
