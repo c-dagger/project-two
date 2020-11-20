@@ -157,18 +157,6 @@ img {
     width: 30%;
     padding: 12px;
   }
-  .gallery-left {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%
-  }
-  .gallery-right {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%
-  }
 
   figure {
     clear: both;
@@ -182,12 +170,12 @@ img {
     font-size: 1.25em; /* 20px / 16px = 1.25em */
     line-height: 40px;
   }
-
-    #gallery {
-      display: flex;
-      flex-wrap: wrap;
-      align-content: center;
-    }
+  #gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
     figure {
       min-width: 200px;
       clear: both;
@@ -208,14 +196,3 @@ img {
       width: 23%;
       padding: 12px;
     }
-  .gallery-left {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    width: 30%
-  }
-  .gallery-right {
-    display: block;
-    justify-content: center;
-    width: 30%
-}
