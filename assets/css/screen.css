@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("//basehold.it/26");
+@import url("#//basehold.it/26");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -196,7 +196,18 @@ img {
     }
   }
   @media screen and (min-width: 1000px) {
-
+    .portrait {
+      display: block;
+      float: center;
+      width: 25%;
+      padding: 12px;
+    }
+    .landscape {
+      display: block;
+      float: center;
+      width: 23%;
+      padding: 12px;
+    }
   .gallery-left {
     display: block;
     align-items: center;
