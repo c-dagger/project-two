@@ -147,18 +147,6 @@ img {
     clear: both;
     float: none;
   }
-  .portrait {
-    display: block;
-    float: center;
-    width: 30%;
-    padding: 12px;
-  }
-  .landscape {
-    display: block;
-    float: center;
-    width: 30%;
-    padding: 12px;
-  }
 
   figure {
     clear: both;
