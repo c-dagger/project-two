@@ -48,6 +48,7 @@ h2 {
 h3 {
   padding: 0.6666667em; /* 12px / 18px = 0.6666667em */
   font-size: 1.25em;
+  font-weight: bold;
 }
 
 figcaption {
