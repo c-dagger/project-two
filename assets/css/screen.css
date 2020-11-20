@@ -177,10 +177,7 @@ img {
   }
 }
 
-@media screen and (min-width: 700px) {
-}
-
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 800px) {
   html {
     font-size: 1.25em; /* 20px / 16px = 1.25em */
     line-height: 40px;
@@ -204,9 +201,10 @@ img {
     display: block;
     align-items: center;
     justify-content: center;
+    width: 30%
   }
   .gallery-right {
     display: block;
-    align-items: center;
     justify-content: center;
+    width: 30%
 }
