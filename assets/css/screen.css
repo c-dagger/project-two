@@ -164,12 +164,12 @@ img {
   .gallery-left {
     display: block;
     float: left;
-    width: 30%
+    width: 40%
   }
   .gallery-right {
     display: block;
     float: right;
-    width: 30%
+    width: 40%
   }
 
   figure {
