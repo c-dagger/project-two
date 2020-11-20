@@ -152,24 +152,24 @@ img {
   .portrait {
     display: block;
     float: center;
-    width: 50%;
+    width: 30%;
     padding: 12px;
   }
   .landscape {
     display: block;
     float: center;
-    width: 50%;
+    width: 30%;
     padding: 12px;
   }
   .gallery-left {
     display: block;
     float: left;
-    width: 50%
+    width: 30%
   }
   .gallery-right {
     display: block;
     float: right;
-    width: 50%
+    width: 30%
   }
 
   figure {
