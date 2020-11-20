@@ -184,10 +184,14 @@ img {
     }
   }
   @media screen and (min-width: 1000px) {
+    html {
+      font-size: 1.25em; /* 20px / 16px = 1.25em */
+      line-height: 45px;
+    }
     .portrait {
       display: block;
       float: center;
-      width: 25%;
+      width: 23%;
       padding: 12px;
     }
     .landscape {
