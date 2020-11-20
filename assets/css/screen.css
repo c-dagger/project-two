@@ -200,4 +200,15 @@ img {
       margin-bottom: 32px;
     }
   }
+  @media screen and (min-width: 1000px) {
+
+  .gallery-left {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-right {
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
