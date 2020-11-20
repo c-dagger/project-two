@@ -107,37 +107,39 @@ img {
   nav li {
     width: auto;
   }
-  /* State Styles */
-  @media screen and (min-width: 100px) {
-    html {
-      font-size: 1em;
-      line-height: 22px;
-      padding: 12px;
-    }
-    h1, h2, h3, h4 {
-      padding-bottom: 12px;
-    }
-
-  @media screen and (min-width: 490px) {
-    html {
-      padding: 25px 10% 25px 10%;
-    }
-    h1 {
-      border: 6px solid #F9CFCB;
-      font-size: 1.77778em;
-    }
-
-    nav a {
-      margin-right: 8px;
-    }
-
-    nav li {
-      float: left; /* Handle layout with float */
-      width: 33.3333333%; /* NOT for flexbox */
-      text-align: center;
-      flex-grow: 1 1 auto; /* Handle layout with flexbox */
-    }
+}
+/* State Styles */
+@media screen and (min-width: 100px) {
+  html {
+    font-size: 1em;
+    line-height: 22px;
+    padding: 12px;
   }
+  h1, h2, h3, h4 {
+    padding-bottom: 12px;
+  }
+}
+@media screen and (min-width: 490px) {
+  html {
+    padding: 25px 10% 25px 10%;
+  }
+
+  h1 {
+    border: 6px solid #F9CFCB;
+    font-size: 1.77778em;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav li {
+    float: left; /* Handle layout with float */
+    width: 33.3333333%; /* NOT for flexbox */
+    text-align: center;
+    flex-grow: 1 1 auto; /* Handle layout with flexbox */
+  }
+
   figure::after,
   section::after {
     content: "";
@@ -176,27 +178,28 @@ img {
     margin-right: auto;
     width: 30%;
   }
-    figure {
-      min-width: 200px;
-      clear: both;
-      float: right;
-      margin-bottom: 32px;
-    }
+  #travelgallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
-  @media screen and (min-width: 1000px) {
-    html {
-      font-size: 1.25em; /* 20px / 16px = 1.25em */
-      line-height: 45px;
-    }
-    .portrait {
-      display: block;
-      float: center;
-      width: 23%;
-      padding: 12px;
-    }
-    .landscape {
-      display: block;
-      float: center;
-      width: 23%;
-      padding: 12px;
-    }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1.25em; /* 20px / 16px = 1.25em */
+    line-height: 45px;
+  }
+  .portrait {
+    display: block;
+    float: center;
+    width: 23%;
+    padding: 12px;
+  }
+  .landscape {
+    display: block;
+    float: center;
+    width: 23%;
+    padding: 12px;
+  }
+}
