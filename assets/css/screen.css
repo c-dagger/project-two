@@ -39,8 +39,9 @@ h1 {
 }
 
 h2 {
-  padding: 12px;
+  padding-bottom: 12px;
   font-size: 1.333em; /* One step up modular scale: 23.994px / 18 px = 1.333em */
+  text-align: center;
 }
 
 h3 {
