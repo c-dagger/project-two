@@ -163,12 +163,14 @@ img {
   }
   .gallery-left {
     display: block;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     width: 40%
   }
   .gallery-right {
     display: block;
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
     width: 40%
   }
 
