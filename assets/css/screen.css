@@ -50,6 +50,9 @@ h3 {
   font-size: 1.25em;
   font-weight: bold;
 }
+figure {
+  padding-bottom: 2.5em; /* 45px / 18px =  */ 
+}
 
 figcaption {
   position: absolute;
